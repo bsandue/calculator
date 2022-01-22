@@ -18,5 +18,7 @@ function calc(c,  a, b){
 	}
 	else if (c == '**') { 
 		return a ** b;
-	}
+	}else if (c == '') { 
+		return 'unknown operation';
+ }
 }
