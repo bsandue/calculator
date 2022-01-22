@@ -22,3 +22,11 @@ function calc(c,  a, b){
 		return 'unknown operation';
  }
 }
+console.log(calc('+', 2, 2));
+console.log(calc('-', 2, 2));
+console.log(calc('/', 2, 2));
+console.log(calc('*', 2, 2));
+console.log(calc('%', 2, 2));
+console.log(calc('', 2, 2));
+console.log(calc('5', '2', '2'));
+console.log(calc('+', 's', 'd'));
